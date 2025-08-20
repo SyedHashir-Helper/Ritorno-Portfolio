@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ProjectCard from '../components/ProjectCard';
+import p5 from "../../public/p-5.png"
 
 const ExperienceSection = () => {
   const [currentProjectSlide, setCurrentProjectSlide] = useState(0);
@@ -57,6 +58,19 @@ const ExperienceSection = () => {
       results: ["75% Better Retention", "2x Learning Speed", "5M+ Students", "200+ Schools"],
       year: "2023",
       duration: "14 months"
+    },
+    {
+      id: 5,
+      title: "Pet Detection in ROI",
+      subtitle: "Computer Vision Based Pet Detection in ROI and sound detection",
+      description: "YOLO based Object Detection, ligh detection using OpenCV and sound detection above certain threshold.",
+      image: p5,
+      technologies: ["Python", "Deep Learning", "YOLO v12", "Open CV", "Object Detection", "Defining ROIs"],
+      category: "Computer Vision",
+      clientLogo: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=80&h=80&fit=crop",
+      results: ["98% Better Detection", "100% Client Satisfaction"],
+      year: "2025",
+      duration: "1 months"
     }
   ];
 
