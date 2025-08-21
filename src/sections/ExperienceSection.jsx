@@ -76,9 +76,9 @@ const transparentBg = "rgba(255,255,255,0.1)";
 
 
 
+
 const ExperienceSection = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-
 
     const canScrollLeft = currentIndex > 0;
     const canScrollRight = currentIndex < experiences.length - 1;
