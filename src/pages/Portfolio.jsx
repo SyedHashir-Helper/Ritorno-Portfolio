@@ -3,7 +3,8 @@ import { Menu, X } from 'lucide-react';
 import LoadingScreen from '../components/LoadingScreen';
 import Sidebar from '../components/Sidebar';
 import HomeSection from '../sections/HomeSection';
-import ExperienceSection from '../sections/ExperienceSection';
+import ProjectsSection from '../sections/ProjectsSection';
+import ExperienceSection from '../sections/ExperienceSection.jsx';
 import TeamSection from '../sections/TeamSection';
 import ContactSection from '../sections/ContactSection';
 
@@ -72,6 +73,10 @@ const AIStartupPortfolio = () => {
           <HomeSection setActiveSection={setActiveSection} />
         )}
         
+        {activeSection === 'projects' && (
+          <ProjectsSection />
+        )}
+
         {activeSection === 'experience' && (
           <ExperienceSection />
         )}

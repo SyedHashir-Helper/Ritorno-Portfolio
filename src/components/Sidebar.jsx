@@ -4,7 +4,8 @@ import logo from "../assets/r-logo.png"
 const Sidebar = ({ activeSection, setActiveSection, isMobileMenuOpen, setIsMobileMenuOpen }) => {
   const navigationItems = [
     { id: 'home', label: 'Home', icon: Home },
-    { id: 'experience', label: 'Experience', icon: Briefcase },
+    { id: 'projects', label: 'Projects', icon: Briefcase },
+    { id: 'experience', label: 'Experience', icon: Zap },
     { id: 'team', label: 'Team', icon: Users },
     { id: 'contact', label: 'Contact', icon: Phone }
   ];
