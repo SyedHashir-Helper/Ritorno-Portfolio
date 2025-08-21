@@ -15,17 +15,7 @@ const ProjectCard = ({ project }) => {
               alt={project.title}
               className="w-full h-48 sm:h-56 lg:h-64 object-cover rounded-2xl shadow-xl group-hover:scale-105 transition-transform duration-700"
             />
-            <div className="absolute top-3 left-3 z-20 flex items-center space-x-2">
-              <img 
-                src={project.clientLogo} 
-                alt="Client"
-                className="w-12 h-12 rounded-xl border-2 border-white/80 shadow-lg backdrop-blur-sm"
-              />
-              <div className="bg-black/60 backdrop-blur-sm rounded-xl px-2 py-1">
-                <div className="text-white font-semibold text-xs">{project.year}</div>
-                <div className="text-gray-300 text-xs">{project.duration}</div>
-              </div>
-            </div>
+            
           </div>
 
           {/* Project Details - Takes more space */}
